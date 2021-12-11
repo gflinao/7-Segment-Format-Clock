@@ -17,6 +17,8 @@ namespace _7_Segment_Format_Clock
         int leftsec = 0;
         int rightmin = 0;
         int leftmin = 0;
+        int righthr = 0;
+        int lefthr = 0;
         int Tick = 0;
         string mytime = "a";
 
@@ -27,7 +29,20 @@ namespace _7_Segment_Format_Clock
 
         private void ClckSgmnt_Load(object sender, EventArgs e)
         {
+            Tick++;
+            label1.Visible = false;
+            string Secs = DateTime.Now.ToString("ss");
+            leftsec = Convert.ToInt32(Secs.Substring(0, 1));
+            if (leftsec == 1 || leftsec == 0)
+            {
 
+            }
+            else
+            {
+                MessageBox.Show("Error, please run again at 0 or 1 sec");
+
+                this.Close();
+            }
         }
 
         private void Timerfnc_Tick(object sender, EventArgs e)
@@ -44,6 +59,12 @@ namespace _7_Segment_Format_Clock
             MinRght(rightmin);
             leftmin = Convert.ToInt32(Mins.Substring(0, 1));
             MinLft(leftmin);
+
+            string Hrs = (DateTime.Now.ToString("hh"));
+            righthr = Convert.ToInt32(Hrs.Substring(Hrs.Length - 1));
+            HourRght(righthr);
+            lefthr = Convert.ToInt32(Hrs.Substring(0, 1));
+            HourLft(lefthr);
         }
         private string mytime1()
         {
@@ -427,6 +448,189 @@ namespace _7_Segment_Format_Clock
                 BLACKED(BtnLMin3);
 
                 BtnLMin4.BackColor = System.Drawing.Color.Transparent;
+            }
+        }
+
+        private void HourRght(int tRhrs)
+        {
+            if (tRhrs == 1)
+            {
+                BLACKED(BtnRHrs3);
+                BLACKED(BtnRHrs6);
+
+                trans(BtnRHrs1);
+                trans(BtnRHrs2);
+                trans(BtnRHrs4);
+                trans(BtnRHrs5);
+                trans(BtnRHrs7);
+            }
+            else if (tRhrs == 2)
+            {
+                BLACKED(BtnRHrs1);
+                BLACKED(BtnRHrs3);
+                BLACKED(BtnRHrs4);
+                BLACKED(BtnRHrs5);
+                BLACKED(BtnRHrs7);
+
+                trans(BtnRHrs2);
+                trans(BtnRHrs6);
+            }
+            else if (tRhrs == 3)
+            {
+                BLACKED(BtnRHrs1);
+                BLACKED(BtnRHrs3);
+                BLACKED(BtnRHrs6);
+                BLACKED(BtnRHrs7);
+                BLACKED(BtnRHrs4);
+
+                trans(BtnRHrs2);
+                trans(BtnRHrs5);
+            }
+            else if (tRhrs == 4)
+            {
+                BLACKED(BtnRHrs3);
+                BLACKED(BtnRHrs6);
+                BLACKED(BtnRHrs2);
+                BLACKED(BtnRHrs4);
+
+                trans(BtnRHrs1);
+                trans(BtnRHrs5);
+                trans(BtnRHrs7);
+            }
+            else if (tRhrs == 5)
+            {
+                BLACKED(BtnRHrs1);
+                BLACKED(BtnRHrs6);
+                BLACKED(BtnRHrs7);
+                BLACKED(BtnRHrs2);
+                BLACKED(BtnRHrs4);
+
+                trans(BtnRHrs5);
+                trans(BtnRHrs3);
+            }
+            else if (tRhrs == 6)
+            {
+                BLACKED(BtnRHrs1);
+                BLACKED(BtnRHrs2);
+                BLACKED(BtnRHrs4);
+                BLACKED(BtnRHrs5);
+                BLACKED(BtnRHrs6);
+                BLACKED(BtnRHrs7);
+
+                trans(BtnRHrs3);
+            }
+
+            else if (tRhrs == 7)
+            {
+                BLACKED(BtnRHrs1);
+                BLACKED(BtnRHrs3);
+                BLACKED(BtnRHrs6);
+
+                trans(BtnRHrs5);
+                trans(BtnRHrs7);
+                trans(BtnRHrs2);
+                trans(BtnRHrs4);
+            }
+            else if (tRhrs == 8)
+            {
+                BLACKED(BtnRHrs1);
+                BLACKED(BtnRHrs2);
+                BLACKED(BtnRHrs3);
+                BLACKED(BtnRHrs4);
+                BLACKED(BtnRHrs5);
+                BLACKED(BtnRHrs6);
+                BLACKED(BtnRHrs7);
+            }
+            else if (tRhrs == 9)
+            {
+                BLACKED(BtnRHrs1);
+                BLACKED(BtnRHrs2);
+                BLACKED(BtnRHrs3);
+                BLACKED(BtnRHrs4);
+                BLACKED(BtnRHrs6);
+                BLACKED(BtnRHrs7);
+                trans(BtnRHrs5);
+            }
+            else
+            {
+                BLACKED(BtnRHrs1);
+                BLACKED(BtnRHrs2);
+                BLACKED(BtnRHrs3);
+                BLACKED(BtnRHrs5);
+                BLACKED(BtnRHrs6);
+                BLACKED(BtnRHrs7);
+
+                trans(BtnRHrs4);
+            }
+        }
+
+        private void HourLft(int tLhrs)
+        {
+            if (tLhrs == 0)
+            {
+                BLACKED(BtnLHrs1);
+                BLACKED(BtnLHrs6);
+                BLACKED(BtnLHrs7);
+                BLACKED(BtnLHrs5);
+                BLACKED(BtnLHrs2);
+                BLACKED(BtnLHrs3);
+
+                trans(BtnLHrs4);
+            }
+            else if (tLhrs == 1)
+            {
+                BLACKED(BtnLHrs3);
+                BLACKED(BtnLHrs6);
+
+                trans(BtnLHrs1);
+                trans(BtnLHrs2);
+                trans(BtnLHrs4);
+                trans(BtnLHrs5);
+                trans(BtnLHrs7);
+            }
+            else if (tLhrs == 2)
+            {
+                BLACKED(BtnLHrs1);
+                BLACKED(BtnLHrs3);
+                BLACKED(BtnLHrs4);
+                BLACKED(BtnLHrs5);
+                BLACKED(BtnLHrs7);
+
+                trans(BtnLHrs6);
+                trans(BtnLHrs2);
+            }
+            else if (tLhrs == 3)
+            {
+                BLACKED(BtnLHrs1);
+                BLACKED(BtnLHrs3);
+                BLACKED(BtnLHrs6);
+                BLACKED(BtnLHrs7);
+                BLACKED(BtnLHrs4);
+
+                trans(BtnLHrs2);
+                trans(BtnLHrs5);
+            }
+            else if (tLhrs == 4)
+            {
+                BLACKED(BtnLHrs3);
+                BLACKED(BtnLHrs6);
+                BLACKED(BtnLHrs2);
+                BLACKED(BtnLHrs4);
+
+                trans(BtnLHrs1);
+                trans(BtnLHrs5);
+                trans(BtnLHrs7);
+            }
+            else
+            {
+                BLACKED(BtnLHrs1);
+                BLACKED(BtnLHrs6);
+                BLACKED(BtnLHrs7);
+                BLACKED(BtnLHrs2);
+                BLACKED(BtnLMin4);
+
+                trans(BtnLHrs5);
+                trans(BtnLHrs3);
             }
         }
     

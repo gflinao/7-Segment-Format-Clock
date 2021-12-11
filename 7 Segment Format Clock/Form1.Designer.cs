@@ -73,6 +73,7 @@ namespace _7_Segment_Format_Clock
             this.BtnLSec2 = new System.Windows.Forms.Button();
             this.BtnLSec1 = new System.Windows.Forms.Button();
             this.Timerfnc = new System.Windows.Forms.Timer(this.components);
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // BtnRHrs7
@@ -525,12 +526,22 @@ namespace _7_Segment_Format_Clock
             this.Timerfnc.Interval = 1000;
             this.Timerfnc.Tick += new System.EventHandler(this.Timerfnc_Tick);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(431, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(67, 13);
+            this.label1.TabIndex = 56;
+            this.label1.Text = "this is a virus";
+            // 
             // ClckSgmnt
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.YellowGreen;
             this.ClientSize = new System.Drawing.Size(950, 375);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.BtnRSec7);
             this.Controls.Add(this.BtnRSec5);
             this.Controls.Add(this.BtnRSec6);
@@ -577,6 +588,7 @@ namespace _7_Segment_Format_Clock
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.ClckSgmnt_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -625,6 +637,7 @@ namespace _7_Segment_Format_Clock
         private System.Windows.Forms.Button BtnLSec2;
         private System.Windows.Forms.Button BtnLSec1;
         private System.Windows.Forms.Timer Timerfnc;
+        private System.Windows.Forms.Label label1;
     }
 }
 
