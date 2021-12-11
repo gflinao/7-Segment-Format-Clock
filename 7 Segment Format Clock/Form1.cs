@@ -642,5 +642,10 @@ namespace _7_Segment_Format_Clock
             Button TClick = (Button)sender;
             TClick.BackColor = System.Drawing.Color.Black;
         }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
