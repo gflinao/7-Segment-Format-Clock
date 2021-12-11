@@ -243,7 +243,8 @@ namespace _7_Segment_Format_Clock
 
         private void BtnTClick(object sender, EventArgs e)
         {
-
+            Button TClick = (Button)sender;
+            TClick.BackColor = System.Drawing.Color.Black;
         }
     }
 }
