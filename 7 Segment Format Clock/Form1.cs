@@ -29,8 +29,10 @@ namespace _7_Segment_Format_Clock
             lblAMPM.Text = DateTime.Now.ToString("tt");
             lblMDY.Text = DateTime.Now.ToString("MMMM dd, yyyy");
             lblDay.Text = DateTime.Now.ToString("dddd");
+
         }
 
+        bool blink_on = false;
         private void ClckSgmnt_Load(object sender, EventArgs e)
         {
             Tick++;
@@ -47,6 +49,7 @@ namespace _7_Segment_Format_Clock
 
                 this.Close();
             }
+
         }
 
         private void Timerfnc_Tick(object sender, EventArgs e)
@@ -649,5 +652,6 @@ namespace _7_Segment_Format_Clock
         {
 
         }
+
     }
 }
