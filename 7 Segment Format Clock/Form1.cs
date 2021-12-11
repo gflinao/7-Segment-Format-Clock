@@ -28,6 +28,7 @@ namespace _7_Segment_Format_Clock
 
             lblAMPM.Text = DateTime.Now.ToString("tt");
             lblMDY.Text = DateTime.Now.ToString("MMMM dd, yyyy");
+            lblDay.Text = DateTime.Now.ToString("dddd");
         }
 
         private void ClckSgmnt_Load(object sender, EventArgs e)
@@ -644,5 +645,9 @@ namespace _7_Segment_Format_Clock
             TClick.BackColor = System.Drawing.Color.Black;
         }
 
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
