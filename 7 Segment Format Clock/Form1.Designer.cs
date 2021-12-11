@@ -1,7 +1,7 @@
 ﻿
 namespace _7_Segment_Format_Clock
 {
-    partial class Form1
+    partial class ClckSgmnt
     {
         /// <summary>
         /// Required designer variable.
@@ -31,12 +31,13 @@ namespace _7_Segment_Format_Clock
         {
             this.SuspendLayout();
             // 
-            // Form1
+            // ClckSgmnt
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.YellowGreen;
             this.ClientSize = new System.Drawing.Size(957, 416);
-            this.Name = "Form1";
+            this.Name = "ClckSgmnt";
             this.Text = "Form1";
             this.ResumeLayout(false);
 

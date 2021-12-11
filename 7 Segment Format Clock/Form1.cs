@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace _7_Segment_Format_Clock
 {
-    public partial class Form1 : Form
+    public partial class ClckSgmnt : Form
     {
-        public Form1()
+        public ClckSgmnt()
         {
             InitializeComponent();
         }
