@@ -80,6 +80,7 @@ namespace _7_Segment_Format_Clock
             this.button4 = new System.Windows.Forms.Button();
             this.lblAMPM = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.lblMDY = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Timerfnc
@@ -601,12 +602,24 @@ namespace _7_Segment_Format_Clock
             this.label2.TabIndex = 62;
             this.label2.Text = "Hour / Minute / Seconds :";
             // 
+            // lblMDY
+            // 
+            this.lblMDY.AutoSize = true;
+            this.lblMDY.Font = new System.Drawing.Font("DS-Digital", 45F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMDY.Location = new System.Drawing.Point(26, 277);
+            this.lblMDY.Name = "lblMDY";
+            this.lblMDY.Size = new System.Drawing.Size(460, 70);
+            this.lblMDY.TabIndex = 63;
+            this.lblMDY.Text = "December 11, 2021";
+            this.lblMDY.UseCompatibleTextRendering = true;
+            // 
             // ClckSgmnt
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.YellowGreen;
             this.ClientSize = new System.Drawing.Size(934, 375);
+            this.Controls.Add(this.lblMDY);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblAMPM);
             this.Controls.Add(this.button4);
@@ -715,6 +728,7 @@ namespace _7_Segment_Format_Clock
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label lblAMPM;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblMDY;
     }
 }
 
