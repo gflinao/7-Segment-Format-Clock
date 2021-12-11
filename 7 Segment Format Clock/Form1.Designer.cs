@@ -84,6 +84,7 @@ namespace _7_Segment_Format_Clock
             this.BtnRHrs7.Size = new System.Drawing.Size(62, 22);
             this.BtnRHrs7.TabIndex = 27;
             this.BtnRHrs7.UseVisualStyleBackColor = true;
+            this.BtnRHrs7.Click += new System.EventHandler(this.BtnTClick);
             // 
             // BtnRHrs5
             // 
@@ -93,6 +94,7 @@ namespace _7_Segment_Format_Clock
             this.BtnRHrs5.Size = new System.Drawing.Size(22, 62);
             this.BtnRHrs5.TabIndex = 26;
             this.BtnRHrs5.UseVisualStyleBackColor = true;
+            this.BtnRHrs5.Click += new System.EventHandler(this.BtnTClick);
             // 
             // BtnRHrs6
             // 
@@ -102,6 +104,7 @@ namespace _7_Segment_Format_Clock
             this.BtnRHrs6.Size = new System.Drawing.Size(22, 62);
             this.BtnRHrs6.TabIndex = 25;
             this.BtnRHrs6.UseVisualStyleBackColor = true;
+            this.BtnRHrs6.Click += new System.EventHandler(this.BtnTClick);
             // 
             // BtnRHrs4
             // 
@@ -112,6 +115,7 @@ namespace _7_Segment_Format_Clock
             this.BtnRHrs4.Size = new System.Drawing.Size(62, 22);
             this.BtnRHrs4.TabIndex = 24;
             this.BtnRHrs4.UseVisualStyleBackColor = true;
+            this.BtnRHrs4.Click += new System.EventHandler(this.BtnTClick);
             // 
             // BtnRHrs3
             // 
@@ -121,6 +125,7 @@ namespace _7_Segment_Format_Clock
             this.BtnRHrs3.Size = new System.Drawing.Size(22, 62);
             this.BtnRHrs3.TabIndex = 23;
             this.BtnRHrs3.UseVisualStyleBackColor = true;
+            this.BtnRHrs3.Click += new System.EventHandler(this.BtnTClick);
             // 
             // BtnRHrs2
             // 
@@ -131,6 +136,7 @@ namespace _7_Segment_Format_Clock
             this.BtnRHrs2.Size = new System.Drawing.Size(22, 62);
             this.BtnRHrs2.TabIndex = 22;
             this.BtnRHrs2.UseVisualStyleBackColor = true;
+            this.BtnRHrs2.Click += new System.EventHandler(this.BtnTClick);
             // 
             // BtnRHrs1
             // 
@@ -141,6 +147,7 @@ namespace _7_Segment_Format_Clock
             this.BtnRHrs1.Size = new System.Drawing.Size(62, 22);
             this.BtnRHrs1.TabIndex = 21;
             this.BtnRHrs1.UseVisualStyleBackColor = true;
+            this.BtnRHrs1.Click += new System.EventHandler(this.BtnTClick);
             // 
             // BtnLHrs7
             // 
@@ -151,6 +158,7 @@ namespace _7_Segment_Format_Clock
             this.BtnLHrs7.Size = new System.Drawing.Size(62, 22);
             this.BtnLHrs7.TabIndex = 20;
             this.BtnLHrs7.UseVisualStyleBackColor = true;
+            this.BtnLHrs7.Click += new System.EventHandler(this.BtnTClick);
             // 
             // BtnLHrs5
             // 
@@ -160,6 +168,7 @@ namespace _7_Segment_Format_Clock
             this.BtnLHrs5.Size = new System.Drawing.Size(22, 62);
             this.BtnLHrs5.TabIndex = 19;
             this.BtnLHrs5.UseVisualStyleBackColor = true;
+            this.BtnLHrs5.Click += new System.EventHandler(this.BtnTClick);
             // 
             // BtnLHrs6
             // 
@@ -169,6 +178,7 @@ namespace _7_Segment_Format_Clock
             this.BtnLHrs6.Size = new System.Drawing.Size(22, 62);
             this.BtnLHrs6.TabIndex = 18;
             this.BtnLHrs6.UseVisualStyleBackColor = true;
+            this.BtnLHrs6.Click += new System.EventHandler(this.BtnTClick);
             // 
             // BtnLHrs4
             // 
@@ -179,6 +189,7 @@ namespace _7_Segment_Format_Clock
             this.BtnLHrs4.Size = new System.Drawing.Size(62, 22);
             this.BtnLHrs4.TabIndex = 17;
             this.BtnLHrs4.UseVisualStyleBackColor = true;
+            this.BtnLHrs4.Click += new System.EventHandler(this.BtnTClick);
             // 
             // BtnLHrs3
             // 
@@ -188,6 +199,7 @@ namespace _7_Segment_Format_Clock
             this.BtnLHrs3.Size = new System.Drawing.Size(22, 62);
             this.BtnLHrs3.TabIndex = 16;
             this.BtnLHrs3.UseVisualStyleBackColor = true;
+            this.BtnLHrs3.Click += new System.EventHandler(this.BtnTClick);
             // 
             // BtnLHrs2
             // 
@@ -198,6 +210,7 @@ namespace _7_Segment_Format_Clock
             this.BtnLHrs2.Size = new System.Drawing.Size(22, 62);
             this.BtnLHrs2.TabIndex = 15;
             this.BtnLHrs2.UseVisualStyleBackColor = true;
+            this.BtnLHrs2.Click += new System.EventHandler(this.BtnTClick);
             // 
             // BtnLHrs1
             // 
@@ -208,6 +221,7 @@ namespace _7_Segment_Format_Clock
             this.BtnLHrs1.Size = new System.Drawing.Size(62, 22);
             this.BtnLHrs1.TabIndex = 14;
             this.BtnLHrs1.UseVisualStyleBackColor = true;
+            this.BtnLHrs1.Click += new System.EventHandler(this.BtnTClick);
             // 
             // BtnRMin7
             // 
@@ -218,6 +232,7 @@ namespace _7_Segment_Format_Clock
             this.BtnRMin7.Size = new System.Drawing.Size(62, 22);
             this.BtnRMin7.TabIndex = 41;
             this.BtnRMin7.UseVisualStyleBackColor = true;
+            this.BtnRMin7.Click += new System.EventHandler(this.BtnTClick);
             // 
             // BtnRMin5
             // 
@@ -227,6 +242,7 @@ namespace _7_Segment_Format_Clock
             this.BtnRMin5.Size = new System.Drawing.Size(22, 62);
             this.BtnRMin5.TabIndex = 40;
             this.BtnRMin5.UseVisualStyleBackColor = true;
+            this.BtnRMin5.Click += new System.EventHandler(this.BtnTClick);
             // 
             // BtnRMin6
             // 
@@ -236,6 +252,7 @@ namespace _7_Segment_Format_Clock
             this.BtnRMin6.Size = new System.Drawing.Size(22, 62);
             this.BtnRMin6.TabIndex = 39;
             this.BtnRMin6.UseVisualStyleBackColor = true;
+            this.BtnRMin6.Click += new System.EventHandler(this.BtnTClick);
             // 
             // BtnRMin4
             // 
@@ -246,6 +263,7 @@ namespace _7_Segment_Format_Clock
             this.BtnRMin4.Size = new System.Drawing.Size(62, 22);
             this.BtnRMin4.TabIndex = 38;
             this.BtnRMin4.UseVisualStyleBackColor = true;
+            this.BtnRMin4.Click += new System.EventHandler(this.BtnTClick);
             // 
             // BtnRMin3
             // 
@@ -255,6 +273,7 @@ namespace _7_Segment_Format_Clock
             this.BtnRMin3.Size = new System.Drawing.Size(22, 62);
             this.BtnRMin3.TabIndex = 37;
             this.BtnRMin3.UseVisualStyleBackColor = true;
+            this.BtnRMin3.Click += new System.EventHandler(this.BtnTClick);
             // 
             // BtnRMin2
             // 
@@ -265,6 +284,7 @@ namespace _7_Segment_Format_Clock
             this.BtnRMin2.Size = new System.Drawing.Size(22, 62);
             this.BtnRMin2.TabIndex = 36;
             this.BtnRMin2.UseVisualStyleBackColor = true;
+            this.BtnRMin2.Click += new System.EventHandler(this.BtnTClick);
             // 
             // BtnRMin1
             // 
@@ -275,6 +295,7 @@ namespace _7_Segment_Format_Clock
             this.BtnRMin1.Size = new System.Drawing.Size(62, 22);
             this.BtnRMin1.TabIndex = 35;
             this.BtnRMin1.UseVisualStyleBackColor = true;
+            this.BtnRMin1.Click += new System.EventHandler(this.BtnTClick);
             // 
             // BtnLMin7
             // 
@@ -285,6 +306,7 @@ namespace _7_Segment_Format_Clock
             this.BtnLMin7.Size = new System.Drawing.Size(62, 22);
             this.BtnLMin7.TabIndex = 34;
             this.BtnLMin7.UseVisualStyleBackColor = true;
+            this.BtnLMin7.Click += new System.EventHandler(this.BtnTClick);
             // 
             // BtnLMin5
             // 
@@ -294,6 +316,7 @@ namespace _7_Segment_Format_Clock
             this.BtnLMin5.Size = new System.Drawing.Size(22, 62);
             this.BtnLMin5.TabIndex = 33;
             this.BtnLMin5.UseVisualStyleBackColor = true;
+            this.BtnLMin5.Click += new System.EventHandler(this.BtnTClick);
             // 
             // BtnLMin6
             // 
@@ -303,6 +326,7 @@ namespace _7_Segment_Format_Clock
             this.BtnLMin6.Size = new System.Drawing.Size(22, 62);
             this.BtnLMin6.TabIndex = 32;
             this.BtnLMin6.UseVisualStyleBackColor = true;
+            this.BtnLMin6.Click += new System.EventHandler(this.BtnTClick);
             // 
             // BtnLMin4
             // 
@@ -313,6 +337,7 @@ namespace _7_Segment_Format_Clock
             this.BtnLMin4.Size = new System.Drawing.Size(62, 22);
             this.BtnLMin4.TabIndex = 31;
             this.BtnLMin4.UseVisualStyleBackColor = true;
+            this.BtnLMin4.Click += new System.EventHandler(this.BtnTClick);
             // 
             // BtnLMin3
             // 
@@ -322,6 +347,7 @@ namespace _7_Segment_Format_Clock
             this.BtnLMin3.Size = new System.Drawing.Size(22, 62);
             this.BtnLMin3.TabIndex = 30;
             this.BtnLMin3.UseVisualStyleBackColor = true;
+            this.BtnLMin3.Click += new System.EventHandler(this.BtnTClick);
             // 
             // BtnLMin2
             // 
@@ -332,6 +358,7 @@ namespace _7_Segment_Format_Clock
             this.BtnLMin2.Size = new System.Drawing.Size(22, 62);
             this.BtnLMin2.TabIndex = 29;
             this.BtnLMin2.UseVisualStyleBackColor = true;
+            this.BtnLMin2.Click += new System.EventHandler(this.BtnTClick);
             // 
             // BtnLMin1
             // 
@@ -342,6 +369,7 @@ namespace _7_Segment_Format_Clock
             this.BtnLMin1.Size = new System.Drawing.Size(62, 22);
             this.BtnLMin1.TabIndex = 28;
             this.BtnLMin1.UseVisualStyleBackColor = true;
+            this.BtnLMin1.Click += new System.EventHandler(this.BtnTClick);
             // 
             // BtnRSec7
             // 
@@ -352,6 +380,7 @@ namespace _7_Segment_Format_Clock
             this.BtnRSec7.Size = new System.Drawing.Size(62, 22);
             this.BtnRSec7.TabIndex = 55;
             this.BtnRSec7.UseVisualStyleBackColor = true;
+            this.BtnRSec7.Click += new System.EventHandler(this.BtnTClick);
             // 
             // BtnRSec5
             // 
@@ -361,6 +390,7 @@ namespace _7_Segment_Format_Clock
             this.BtnRSec5.Size = new System.Drawing.Size(22, 62);
             this.BtnRSec5.TabIndex = 54;
             this.BtnRSec5.UseVisualStyleBackColor = true;
+            this.BtnRSec5.Click += new System.EventHandler(this.BtnTClick);
             // 
             // BtnRSec6
             // 
@@ -370,6 +400,7 @@ namespace _7_Segment_Format_Clock
             this.BtnRSec6.Size = new System.Drawing.Size(22, 62);
             this.BtnRSec6.TabIndex = 53;
             this.BtnRSec6.UseVisualStyleBackColor = true;
+            this.BtnRSec6.Click += new System.EventHandler(this.BtnTClick);
             // 
             // BtnRSec4
             // 
@@ -380,6 +411,7 @@ namespace _7_Segment_Format_Clock
             this.BtnRSec4.Size = new System.Drawing.Size(62, 22);
             this.BtnRSec4.TabIndex = 52;
             this.BtnRSec4.UseVisualStyleBackColor = true;
+            this.BtnRSec4.Click += new System.EventHandler(this.BtnTClick);
             // 
             // BtnRSec3
             // 
@@ -389,6 +421,7 @@ namespace _7_Segment_Format_Clock
             this.BtnRSec3.Size = new System.Drawing.Size(22, 62);
             this.BtnRSec3.TabIndex = 51;
             this.BtnRSec3.UseVisualStyleBackColor = true;
+            this.BtnRSec3.Click += new System.EventHandler(this.BtnTClick);
             // 
             // BtnRSec2
             // 
@@ -399,6 +432,7 @@ namespace _7_Segment_Format_Clock
             this.BtnRSec2.Size = new System.Drawing.Size(22, 62);
             this.BtnRSec2.TabIndex = 50;
             this.BtnRSec2.UseVisualStyleBackColor = true;
+            this.BtnRSec2.Click += new System.EventHandler(this.BtnTClick);
             // 
             // BtnRSec1
             // 
@@ -409,6 +443,7 @@ namespace _7_Segment_Format_Clock
             this.BtnRSec1.Size = new System.Drawing.Size(62, 22);
             this.BtnRSec1.TabIndex = 49;
             this.BtnRSec1.UseVisualStyleBackColor = true;
+            this.BtnRSec1.Click += new System.EventHandler(this.BtnTClick);
             // 
             // BtnLSec7
             // 
@@ -419,6 +454,7 @@ namespace _7_Segment_Format_Clock
             this.BtnLSec7.Size = new System.Drawing.Size(62, 22);
             this.BtnLSec7.TabIndex = 48;
             this.BtnLSec7.UseVisualStyleBackColor = true;
+            this.BtnLSec7.Click += new System.EventHandler(this.BtnTClick);
             // 
             // BtnLSec5
             // 
@@ -428,6 +464,7 @@ namespace _7_Segment_Format_Clock
             this.BtnLSec5.Size = new System.Drawing.Size(22, 62);
             this.BtnLSec5.TabIndex = 47;
             this.BtnLSec5.UseVisualStyleBackColor = true;
+            this.BtnLSec5.Click += new System.EventHandler(this.BtnTClick);
             // 
             // BtnLSec6
             // 
@@ -437,6 +474,7 @@ namespace _7_Segment_Format_Clock
             this.BtnLSec6.Size = new System.Drawing.Size(22, 62);
             this.BtnLSec6.TabIndex = 46;
             this.BtnLSec6.UseVisualStyleBackColor = true;
+            this.BtnLSec6.Click += new System.EventHandler(this.BtnTClick);
             // 
             // BtnLSec4
             // 
@@ -447,6 +485,7 @@ namespace _7_Segment_Format_Clock
             this.BtnLSec4.Size = new System.Drawing.Size(62, 22);
             this.BtnLSec4.TabIndex = 45;
             this.BtnLSec4.UseVisualStyleBackColor = true;
+            this.BtnLSec4.Click += new System.EventHandler(this.BtnTClick);
             // 
             // BtnLSec3
             // 
@@ -456,6 +495,7 @@ namespace _7_Segment_Format_Clock
             this.BtnLSec3.Size = new System.Drawing.Size(22, 62);
             this.BtnLSec3.TabIndex = 44;
             this.BtnLSec3.UseVisualStyleBackColor = true;
+            this.BtnLSec3.Click += new System.EventHandler(this.BtnTClick);
             // 
             // BtnLSec2
             // 
@@ -466,6 +506,7 @@ namespace _7_Segment_Format_Clock
             this.BtnLSec2.Size = new System.Drawing.Size(22, 62);
             this.BtnLSec2.TabIndex = 43;
             this.BtnLSec2.UseVisualStyleBackColor = true;
+            this.BtnLSec2.Click += new System.EventHandler(this.BtnTClick);
             // 
             // BtnLSec1
             // 
@@ -476,11 +517,13 @@ namespace _7_Segment_Format_Clock
             this.BtnLSec1.Size = new System.Drawing.Size(62, 22);
             this.BtnLSec1.TabIndex = 42;
             this.BtnLSec1.UseVisualStyleBackColor = true;
+            this.BtnLSec1.Click += new System.EventHandler(this.BtnTClick);
             // 
             // Timerfnc
             // 
             this.Timerfnc.Enabled = true;
             this.Timerfnc.Interval = 1000;
+            this.Timerfnc.Tick += new System.EventHandler(this.Timerfnc_Tick);
             // 
             // ClckSgmnt
             // 
@@ -532,6 +575,7 @@ namespace _7_Segment_Format_Clock
             this.Controls.Add(this.BtnLHrs1);
             this.Name = "ClckSgmnt";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.ClckSgmnt_Load);
             this.ResumeLayout(false);
 
         }
