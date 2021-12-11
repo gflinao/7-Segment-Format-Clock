@@ -29,6 +29,7 @@ namespace _7_Segment_Format_Clock
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.BtnRHrs7 = new System.Windows.Forms.Button();
             this.BtnRHrs5 = new System.Windows.Forms.Button();
             this.BtnRHrs6 = new System.Windows.Forms.Button();
@@ -71,6 +72,7 @@ namespace _7_Segment_Format_Clock
             this.BtnLSec3 = new System.Windows.Forms.Button();
             this.BtnLSec2 = new System.Windows.Forms.Button();
             this.BtnLSec1 = new System.Windows.Forms.Button();
+            this.Timerfnc = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // BtnRHrs7
@@ -475,6 +477,11 @@ namespace _7_Segment_Format_Clock
             this.BtnLSec1.TabIndex = 42;
             this.BtnLSec1.UseVisualStyleBackColor = true;
             // 
+            // Timerfnc
+            // 
+            this.Timerfnc.Enabled = true;
+            this.Timerfnc.Interval = 1000;
+            // 
             // ClckSgmnt
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -573,6 +580,7 @@ namespace _7_Segment_Format_Clock
         private System.Windows.Forms.Button BtnLSec3;
         private System.Windows.Forms.Button BtnLSec2;
         private System.Windows.Forms.Button BtnLSec1;
+        private System.Windows.Forms.Timer Timerfnc;
     }
 }
 
