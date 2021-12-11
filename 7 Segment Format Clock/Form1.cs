@@ -15,6 +15,8 @@ namespace _7_Segment_Format_Clock
 
         int rightsec = 0;
         int leftsec = 0;
+        int rightmin = 0;
+        int leftmin = 0;
         int Tick = 0;
         string mytime = "a";
 
@@ -36,6 +38,12 @@ namespace _7_Segment_Format_Clock
             SecRght(rightsec);
             leftsec = Convert.ToInt32(Secs.Substring(0, 1));
             SecLft(leftsec);
+
+            string Mins = (DateTime.Now.ToString("mm"));
+            rightmin = Convert.ToInt32(Mins.Substring(Mins.Length - 1));
+            MinRght(rightmin);
+            leftmin = Convert.ToInt32(Mins.Substring(0, 1));
+            MinLft(leftmin);
         }
         private string mytime1()
         {
@@ -169,10 +177,7 @@ namespace _7_Segment_Format_Clock
             }
 
         }
-        private string mytime5()
-        {
-            return "this";
-        }
+
         private void SecLft(int tLsec)
         {
             if (tLsec == 1)
@@ -240,6 +245,191 @@ namespace _7_Segment_Format_Clock
                 BtnLSec4.BackColor = System.Drawing.Color.Transparent;
             }
         }
+
+        private void MinRght(int tRmin)
+        {
+            if (tRmin == 1)
+            {
+                BLACKED(BtnRMin3);
+                BLACKED(BtnRMin6);
+
+                BtnRMin1.BackColor = System.Drawing.Color.Transparent;
+                BtnRMin2.BackColor = System.Drawing.Color.Transparent;
+                BtnRMin4.BackColor = System.Drawing.Color.Transparent;
+                BtnRMin5.BackColor = System.Drawing.Color.Transparent;
+                BtnRMin7.BackColor = System.Drawing.Color.Transparent;
+            }
+            else if (tRmin == 2)
+            {
+                BLACKED(BtnRMin1);
+                BLACKED(BtnRMin3);
+                BLACKED(BtnRMin4);
+                BLACKED(BtnRMin5);
+                BLACKED(BtnRMin7);
+
+                trans(BtnRMin2);
+                BtnRMin6.BackColor = System.Drawing.Color.Transparent;
+            }
+            else if (tRmin == 3)
+            {
+                BLACKED(BtnRMin1);
+                BLACKED(BtnRMin3);
+                BLACKED(BtnRMin6);
+                BLACKED(BtnRMin7);
+                BLACKED(BtnRMin4);
+
+                trans(BtnRMin2);
+                BtnRMin5.BackColor = System.Drawing.Color.Transparent;
+            }
+            else if (tRmin == 4)
+            {
+                BLACKED(BtnRMin3);
+                BLACKED(BtnRMin6);
+                BLACKED(BtnRMin2);
+                BLACKED(BtnRMin4);
+
+                BtnRMin1.BackColor = System.Drawing.Color.Transparent;
+                trans(BtnRMin5);
+                BtnRMin7.BackColor = System.Drawing.Color.Transparent;
+            }
+            else if (tRmin == 5)
+            {
+                BLACKED(BtnRMin1);
+                BLACKED(BtnRMin6);
+                BLACKED(BtnRMin7);
+                BLACKED(BtnRMin2);
+                BLACKED(BtnRMin4);
+
+                trans(BtnRMin5);
+                BtnRMin3.BackColor = System.Drawing.Color.Transparent;
+            }
+            else if (tRmin == 6)
+            {
+                BLACKED(BtnRMin1);
+                BLACKED(BtnRMin6);
+                BLACKED(BtnRMin7);
+                BLACKED(BtnRMin5);
+                BLACKED(BtnRMin2);
+                BLACKED(BtnRMin4);
+
+                trans(BtnRMin3);
+            }
+
+            else if (tRmin == 7)
+            {
+                BLACKED(BtnRMin1);
+                BLACKED(BtnRMin3);
+                BLACKED(BtnRMin6);
+
+                BtnRMin7.BackColor = System.Drawing.Color.Transparent;
+                BtnRMin5.BackColor = System.Drawing.Color.Transparent;
+                BtnRMin2.BackColor = System.Drawing.Color.Transparent;
+                BtnRMin4.BackColor = System.Drawing.Color.Transparent;
+            }
+            else if (tRmin == 8)
+            {
+                BLACKED(BtnRMin1);
+                BLACKED(BtnRMin2);
+                BLACKED(BtnRMin3);
+                BLACKED(BtnRMin4);
+                BLACKED(BtnRMin5);
+                BLACKED(BtnRMin6);
+                BLACKED(BtnRMin7);
+            }
+            else if (tRmin == 9)
+            {
+                BLACKED(BtnRMin1);
+                BLACKED(BtnRMin3);
+                BLACKED(BtnRMin6);
+                BLACKED(BtnRMin7);
+                BLACKED(BtnRMin2);
+                BLACKED(BtnRMin4);
+                trans(BtnRMin5);
+            }
+            else
+            {
+                BLACKED(BtnRMin1);
+                BLACKED(BtnRMin6);
+                BLACKED(BtnRMin7);
+                BLACKED(BtnRMin5);
+                BLACKED(BtnRMin2);
+                BLACKED(BtnRMin3);
+
+                BtnRMin4.BackColor = System.Drawing.Color.Transparent;
+            }
+
+        }
+
+        private void MinLft(int tLmin)
+        {
+            if (tLmin == 1)
+            {
+                BLACKED(BtnLMin3);
+                BLACKED(BtnLMin6);
+
+                BtnLMin1.BackColor = System.Drawing.Color.Transparent;
+                BtnLMin2.BackColor = System.Drawing.Color.Transparent;
+                BtnLMin4.BackColor = System.Drawing.Color.Transparent;
+                BtnLMin5.BackColor = System.Drawing.Color.Transparent;
+                BtnLMin7.BackColor = System.Drawing.Color.Transparent;
+            }
+            else if (tLmin == 2)
+            {
+                BLACKED(BtnLMin1);
+                BLACKED(BtnLMin3);
+                BLACKED(BtnLMin4);
+                BLACKED(BtnLMin5);
+                BLACKED(BtnLMin7);
+
+                trans(BtnLMin2);
+                BtnLMin6.BackColor = System.Drawing.Color.Transparent;
+            }
+            else if (tLmin == 3)
+            {
+                BLACKED(BtnLMin1);
+                BLACKED(BtnLMin3);
+                BLACKED(BtnLMin6);
+                BLACKED(BtnLMin7);
+                BLACKED(BtnLMin4);
+
+                trans(BtnLMin2);
+                BtnLMin5.BackColor = System.Drawing.Color.Transparent;
+            }
+            else if (tLmin == 4)
+            {
+                BLACKED(BtnLMin3);
+                BLACKED(BtnLMin6);
+                BLACKED(BtnLMin2);
+                BLACKED(BtnLMin4);
+
+                BtnLMin1.BackColor = System.Drawing.Color.Transparent;
+                trans(BtnLMin5);
+                BtnLMin7.BackColor = System.Drawing.Color.Transparent;
+            }
+            else if (tLmin == 5)
+            {
+                BLACKED(BtnLMin1);
+                BLACKED(BtnLMin6);
+                BLACKED(BtnLMin7);
+                BLACKED(BtnLMin2);
+                BLACKED(BtnLMin4);
+
+                trans(BtnLMin5);
+                BtnLMin3.BackColor = System.Drawing.Color.Transparent;
+            }
+            else
+            {
+                BLACKED(BtnLMin1);
+                BLACKED(BtnLMin6);
+                BLACKED(BtnLMin7);
+                BLACKED(BtnLMin5);
+                BLACKED(BtnLMin2);
+                BLACKED(BtnLMin3);
+
+                BtnLMin4.BackColor = System.Drawing.Color.Transparent;
+            }
+        }
+    
 
         private void BtnTClick(object sender, EventArgs e)
         {
