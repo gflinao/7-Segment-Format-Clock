@@ -25,6 +25,8 @@ namespace _7_Segment_Format_Clock
         public ClckSgmnt()
         {
             InitializeComponent();
+
+            lblAMPM.Text = DateTime.Now.ToString("tt");
         }
 
         private void ClckSgmnt_Load(object sender, EventArgs e)

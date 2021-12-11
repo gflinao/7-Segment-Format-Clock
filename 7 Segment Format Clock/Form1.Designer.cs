@@ -78,13 +78,14 @@ namespace _7_Segment_Format_Clock
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.lblAMPM = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // BtnRHrs7
             // 
             this.BtnRHrs7.FlatAppearance.BorderColor = System.Drawing.Color.YellowGreen;
             this.BtnRHrs7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.BtnRHrs7.Location = new System.Drawing.Point(207, 224);
+            this.BtnRHrs7.Location = new System.Drawing.Point(178, 224);
             this.BtnRHrs7.Name = "BtnRHrs7";
             this.BtnRHrs7.Size = new System.Drawing.Size(62, 22);
             this.BtnRHrs7.TabIndex = 27;
@@ -94,7 +95,7 @@ namespace _7_Segment_Format_Clock
             // BtnRHrs5
             // 
             this.BtnRHrs5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnRHrs5.Location = new System.Drawing.Point(184, 161);
+            this.BtnRHrs5.Location = new System.Drawing.Point(155, 161);
             this.BtnRHrs5.Name = "BtnRHrs5";
             this.BtnRHrs5.Size = new System.Drawing.Size(22, 62);
             this.BtnRHrs5.TabIndex = 26;
@@ -104,7 +105,7 @@ namespace _7_Segment_Format_Clock
             // BtnRHrs6
             // 
             this.BtnRHrs6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnRHrs6.Location = new System.Drawing.Point(270, 162);
+            this.BtnRHrs6.Location = new System.Drawing.Point(241, 162);
             this.BtnRHrs6.Name = "BtnRHrs6";
             this.BtnRHrs6.Size = new System.Drawing.Size(22, 62);
             this.BtnRHrs6.TabIndex = 25;
@@ -115,7 +116,7 @@ namespace _7_Segment_Format_Clock
             // 
             this.BtnRHrs4.FlatAppearance.BorderColor = System.Drawing.Color.YellowGreen;
             this.BtnRHrs4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.BtnRHrs4.Location = new System.Drawing.Point(207, 139);
+            this.BtnRHrs4.Location = new System.Drawing.Point(178, 139);
             this.BtnRHrs4.Name = "BtnRHrs4";
             this.BtnRHrs4.Size = new System.Drawing.Size(62, 22);
             this.BtnRHrs4.TabIndex = 24;
@@ -125,7 +126,7 @@ namespace _7_Segment_Format_Clock
             // BtnRHrs3
             // 
             this.BtnRHrs3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnRHrs3.Location = new System.Drawing.Point(270, 77);
+            this.BtnRHrs3.Location = new System.Drawing.Point(241, 77);
             this.BtnRHrs3.Name = "BtnRHrs3";
             this.BtnRHrs3.Size = new System.Drawing.Size(22, 62);
             this.BtnRHrs3.TabIndex = 23;
@@ -136,7 +137,7 @@ namespace _7_Segment_Format_Clock
             // 
             this.BtnRHrs2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.BtnRHrs2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnRHrs2.Location = new System.Drawing.Point(184, 77);
+            this.BtnRHrs2.Location = new System.Drawing.Point(155, 77);
             this.BtnRHrs2.Name = "BtnRHrs2";
             this.BtnRHrs2.Size = new System.Drawing.Size(22, 62);
             this.BtnRHrs2.TabIndex = 22;
@@ -147,7 +148,7 @@ namespace _7_Segment_Format_Clock
             // 
             this.BtnRHrs1.FlatAppearance.BorderColor = System.Drawing.Color.YellowGreen;
             this.BtnRHrs1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.BtnRHrs1.Location = new System.Drawing.Point(207, 55);
+            this.BtnRHrs1.Location = new System.Drawing.Point(178, 55);
             this.BtnRHrs1.Name = "BtnRHrs1";
             this.BtnRHrs1.Size = new System.Drawing.Size(62, 22);
             this.BtnRHrs1.TabIndex = 21;
@@ -158,7 +159,7 @@ namespace _7_Segment_Format_Clock
             // 
             this.BtnLHrs7.FlatAppearance.BorderColor = System.Drawing.Color.YellowGreen;
             this.BtnLHrs7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.BtnLHrs7.Location = new System.Drawing.Point(85, 224);
+            this.BtnLHrs7.Location = new System.Drawing.Point(56, 224);
             this.BtnLHrs7.Name = "BtnLHrs7";
             this.BtnLHrs7.Size = new System.Drawing.Size(62, 22);
             this.BtnLHrs7.TabIndex = 20;
@@ -168,7 +169,7 @@ namespace _7_Segment_Format_Clock
             // BtnLHrs5
             // 
             this.BtnLHrs5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnLHrs5.Location = new System.Drawing.Point(62, 161);
+            this.BtnLHrs5.Location = new System.Drawing.Point(33, 161);
             this.BtnLHrs5.Name = "BtnLHrs5";
             this.BtnLHrs5.Size = new System.Drawing.Size(22, 62);
             this.BtnLHrs5.TabIndex = 19;
@@ -178,7 +179,7 @@ namespace _7_Segment_Format_Clock
             // BtnLHrs6
             // 
             this.BtnLHrs6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnLHrs6.Location = new System.Drawing.Point(148, 162);
+            this.BtnLHrs6.Location = new System.Drawing.Point(119, 162);
             this.BtnLHrs6.Name = "BtnLHrs6";
             this.BtnLHrs6.Size = new System.Drawing.Size(22, 62);
             this.BtnLHrs6.TabIndex = 18;
@@ -189,7 +190,7 @@ namespace _7_Segment_Format_Clock
             // 
             this.BtnLHrs4.FlatAppearance.BorderColor = System.Drawing.Color.YellowGreen;
             this.BtnLHrs4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.BtnLHrs4.Location = new System.Drawing.Point(85, 139);
+            this.BtnLHrs4.Location = new System.Drawing.Point(56, 139);
             this.BtnLHrs4.Name = "BtnLHrs4";
             this.BtnLHrs4.Size = new System.Drawing.Size(62, 22);
             this.BtnLHrs4.TabIndex = 17;
@@ -199,7 +200,7 @@ namespace _7_Segment_Format_Clock
             // BtnLHrs3
             // 
             this.BtnLHrs3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnLHrs3.Location = new System.Drawing.Point(148, 77);
+            this.BtnLHrs3.Location = new System.Drawing.Point(119, 77);
             this.BtnLHrs3.Name = "BtnLHrs3";
             this.BtnLHrs3.Size = new System.Drawing.Size(22, 62);
             this.BtnLHrs3.TabIndex = 16;
@@ -210,7 +211,7 @@ namespace _7_Segment_Format_Clock
             // 
             this.BtnLHrs2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.BtnLHrs2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnLHrs2.Location = new System.Drawing.Point(62, 77);
+            this.BtnLHrs2.Location = new System.Drawing.Point(33, 77);
             this.BtnLHrs2.Name = "BtnLHrs2";
             this.BtnLHrs2.Size = new System.Drawing.Size(22, 62);
             this.BtnLHrs2.TabIndex = 15;
@@ -221,7 +222,7 @@ namespace _7_Segment_Format_Clock
             // 
             this.BtnLHrs1.FlatAppearance.BorderColor = System.Drawing.Color.YellowGreen;
             this.BtnLHrs1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.BtnLHrs1.Location = new System.Drawing.Point(85, 55);
+            this.BtnLHrs1.Location = new System.Drawing.Point(56, 55);
             this.BtnLHrs1.Name = "BtnLHrs1";
             this.BtnLHrs1.Size = new System.Drawing.Size(62, 22);
             this.BtnLHrs1.TabIndex = 14;
@@ -232,7 +233,7 @@ namespace _7_Segment_Format_Clock
             // 
             this.BtnRMin7.FlatAppearance.BorderColor = System.Drawing.Color.YellowGreen;
             this.BtnRMin7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.BtnRMin7.Location = new System.Drawing.Point(493, 224);
+            this.BtnRMin7.Location = new System.Drawing.Point(464, 224);
             this.BtnRMin7.Name = "BtnRMin7";
             this.BtnRMin7.Size = new System.Drawing.Size(62, 22);
             this.BtnRMin7.TabIndex = 41;
@@ -242,7 +243,7 @@ namespace _7_Segment_Format_Clock
             // BtnRMin5
             // 
             this.BtnRMin5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnRMin5.Location = new System.Drawing.Point(470, 161);
+            this.BtnRMin5.Location = new System.Drawing.Point(441, 161);
             this.BtnRMin5.Name = "BtnRMin5";
             this.BtnRMin5.Size = new System.Drawing.Size(22, 62);
             this.BtnRMin5.TabIndex = 40;
@@ -252,7 +253,7 @@ namespace _7_Segment_Format_Clock
             // BtnRMin6
             // 
             this.BtnRMin6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnRMin6.Location = new System.Drawing.Point(556, 162);
+            this.BtnRMin6.Location = new System.Drawing.Point(527, 162);
             this.BtnRMin6.Name = "BtnRMin6";
             this.BtnRMin6.Size = new System.Drawing.Size(22, 62);
             this.BtnRMin6.TabIndex = 39;
@@ -263,7 +264,7 @@ namespace _7_Segment_Format_Clock
             // 
             this.BtnRMin4.FlatAppearance.BorderColor = System.Drawing.Color.YellowGreen;
             this.BtnRMin4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.BtnRMin4.Location = new System.Drawing.Point(493, 139);
+            this.BtnRMin4.Location = new System.Drawing.Point(464, 139);
             this.BtnRMin4.Name = "BtnRMin4";
             this.BtnRMin4.Size = new System.Drawing.Size(62, 22);
             this.BtnRMin4.TabIndex = 38;
@@ -273,7 +274,7 @@ namespace _7_Segment_Format_Clock
             // BtnRMin3
             // 
             this.BtnRMin3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnRMin3.Location = new System.Drawing.Point(556, 77);
+            this.BtnRMin3.Location = new System.Drawing.Point(527, 77);
             this.BtnRMin3.Name = "BtnRMin3";
             this.BtnRMin3.Size = new System.Drawing.Size(22, 62);
             this.BtnRMin3.TabIndex = 37;
@@ -284,7 +285,7 @@ namespace _7_Segment_Format_Clock
             // 
             this.BtnRMin2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.BtnRMin2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnRMin2.Location = new System.Drawing.Point(470, 77);
+            this.BtnRMin2.Location = new System.Drawing.Point(441, 77);
             this.BtnRMin2.Name = "BtnRMin2";
             this.BtnRMin2.Size = new System.Drawing.Size(22, 62);
             this.BtnRMin2.TabIndex = 36;
@@ -295,7 +296,7 @@ namespace _7_Segment_Format_Clock
             // 
             this.BtnRMin1.FlatAppearance.BorderColor = System.Drawing.Color.YellowGreen;
             this.BtnRMin1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.BtnRMin1.Location = new System.Drawing.Point(493, 55);
+            this.BtnRMin1.Location = new System.Drawing.Point(464, 55);
             this.BtnRMin1.Name = "BtnRMin1";
             this.BtnRMin1.Size = new System.Drawing.Size(62, 22);
             this.BtnRMin1.TabIndex = 35;
@@ -306,7 +307,7 @@ namespace _7_Segment_Format_Clock
             // 
             this.BtnLMin7.FlatAppearance.BorderColor = System.Drawing.Color.YellowGreen;
             this.BtnLMin7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.BtnLMin7.Location = new System.Drawing.Point(371, 224);
+            this.BtnLMin7.Location = new System.Drawing.Point(342, 224);
             this.BtnLMin7.Name = "BtnLMin7";
             this.BtnLMin7.Size = new System.Drawing.Size(62, 22);
             this.BtnLMin7.TabIndex = 34;
@@ -316,7 +317,7 @@ namespace _7_Segment_Format_Clock
             // BtnLMin5
             // 
             this.BtnLMin5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnLMin5.Location = new System.Drawing.Point(348, 161);
+            this.BtnLMin5.Location = new System.Drawing.Point(319, 161);
             this.BtnLMin5.Name = "BtnLMin5";
             this.BtnLMin5.Size = new System.Drawing.Size(22, 62);
             this.BtnLMin5.TabIndex = 33;
@@ -326,7 +327,7 @@ namespace _7_Segment_Format_Clock
             // BtnLMin6
             // 
             this.BtnLMin6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnLMin6.Location = new System.Drawing.Point(434, 162);
+            this.BtnLMin6.Location = new System.Drawing.Point(405, 162);
             this.BtnLMin6.Name = "BtnLMin6";
             this.BtnLMin6.Size = new System.Drawing.Size(22, 62);
             this.BtnLMin6.TabIndex = 32;
@@ -337,7 +338,7 @@ namespace _7_Segment_Format_Clock
             // 
             this.BtnLMin4.FlatAppearance.BorderColor = System.Drawing.Color.YellowGreen;
             this.BtnLMin4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.BtnLMin4.Location = new System.Drawing.Point(371, 139);
+            this.BtnLMin4.Location = new System.Drawing.Point(342, 139);
             this.BtnLMin4.Name = "BtnLMin4";
             this.BtnLMin4.Size = new System.Drawing.Size(62, 22);
             this.BtnLMin4.TabIndex = 31;
@@ -347,7 +348,7 @@ namespace _7_Segment_Format_Clock
             // BtnLMin3
             // 
             this.BtnLMin3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnLMin3.Location = new System.Drawing.Point(434, 77);
+            this.BtnLMin3.Location = new System.Drawing.Point(405, 77);
             this.BtnLMin3.Name = "BtnLMin3";
             this.BtnLMin3.Size = new System.Drawing.Size(22, 62);
             this.BtnLMin3.TabIndex = 30;
@@ -358,7 +359,7 @@ namespace _7_Segment_Format_Clock
             // 
             this.BtnLMin2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.BtnLMin2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnLMin2.Location = new System.Drawing.Point(348, 77);
+            this.BtnLMin2.Location = new System.Drawing.Point(319, 77);
             this.BtnLMin2.Name = "BtnLMin2";
             this.BtnLMin2.Size = new System.Drawing.Size(22, 62);
             this.BtnLMin2.TabIndex = 29;
@@ -369,7 +370,7 @@ namespace _7_Segment_Format_Clock
             // 
             this.BtnLMin1.FlatAppearance.BorderColor = System.Drawing.Color.YellowGreen;
             this.BtnLMin1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.BtnLMin1.Location = new System.Drawing.Point(371, 55);
+            this.BtnLMin1.Location = new System.Drawing.Point(342, 55);
             this.BtnLMin1.Name = "BtnLMin1";
             this.BtnLMin1.Size = new System.Drawing.Size(62, 22);
             this.BtnLMin1.TabIndex = 28;
@@ -380,7 +381,7 @@ namespace _7_Segment_Format_Clock
             // 
             this.BtnRSec7.FlatAppearance.BorderColor = System.Drawing.Color.YellowGreen;
             this.BtnRSec7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.BtnRSec7.Location = new System.Drawing.Point(782, 224);
+            this.BtnRSec7.Location = new System.Drawing.Point(753, 224);
             this.BtnRSec7.Name = "BtnRSec7";
             this.BtnRSec7.Size = new System.Drawing.Size(62, 22);
             this.BtnRSec7.TabIndex = 55;
@@ -390,7 +391,7 @@ namespace _7_Segment_Format_Clock
             // BtnRSec5
             // 
             this.BtnRSec5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnRSec5.Location = new System.Drawing.Point(759, 161);
+            this.BtnRSec5.Location = new System.Drawing.Point(730, 161);
             this.BtnRSec5.Name = "BtnRSec5";
             this.BtnRSec5.Size = new System.Drawing.Size(22, 62);
             this.BtnRSec5.TabIndex = 54;
@@ -400,7 +401,7 @@ namespace _7_Segment_Format_Clock
             // BtnRSec6
             // 
             this.BtnRSec6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnRSec6.Location = new System.Drawing.Point(845, 162);
+            this.BtnRSec6.Location = new System.Drawing.Point(816, 162);
             this.BtnRSec6.Name = "BtnRSec6";
             this.BtnRSec6.Size = new System.Drawing.Size(22, 62);
             this.BtnRSec6.TabIndex = 53;
@@ -411,7 +412,7 @@ namespace _7_Segment_Format_Clock
             // 
             this.BtnRSec4.FlatAppearance.BorderColor = System.Drawing.Color.YellowGreen;
             this.BtnRSec4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.BtnRSec4.Location = new System.Drawing.Point(782, 139);
+            this.BtnRSec4.Location = new System.Drawing.Point(753, 139);
             this.BtnRSec4.Name = "BtnRSec4";
             this.BtnRSec4.Size = new System.Drawing.Size(62, 22);
             this.BtnRSec4.TabIndex = 52;
@@ -421,7 +422,7 @@ namespace _7_Segment_Format_Clock
             // BtnRSec3
             // 
             this.BtnRSec3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnRSec3.Location = new System.Drawing.Point(845, 77);
+            this.BtnRSec3.Location = new System.Drawing.Point(816, 77);
             this.BtnRSec3.Name = "BtnRSec3";
             this.BtnRSec3.Size = new System.Drawing.Size(22, 62);
             this.BtnRSec3.TabIndex = 51;
@@ -432,7 +433,7 @@ namespace _7_Segment_Format_Clock
             // 
             this.BtnRSec2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.BtnRSec2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnRSec2.Location = new System.Drawing.Point(759, 77);
+            this.BtnRSec2.Location = new System.Drawing.Point(730, 77);
             this.BtnRSec2.Name = "BtnRSec2";
             this.BtnRSec2.Size = new System.Drawing.Size(22, 62);
             this.BtnRSec2.TabIndex = 50;
@@ -443,7 +444,7 @@ namespace _7_Segment_Format_Clock
             // 
             this.BtnRSec1.FlatAppearance.BorderColor = System.Drawing.Color.YellowGreen;
             this.BtnRSec1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.BtnRSec1.Location = new System.Drawing.Point(782, 55);
+            this.BtnRSec1.Location = new System.Drawing.Point(753, 55);
             this.BtnRSec1.Name = "BtnRSec1";
             this.BtnRSec1.Size = new System.Drawing.Size(62, 22);
             this.BtnRSec1.TabIndex = 49;
@@ -454,7 +455,7 @@ namespace _7_Segment_Format_Clock
             // 
             this.BtnLSec7.FlatAppearance.BorderColor = System.Drawing.Color.YellowGreen;
             this.BtnLSec7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.BtnLSec7.Location = new System.Drawing.Point(660, 224);
+            this.BtnLSec7.Location = new System.Drawing.Point(631, 224);
             this.BtnLSec7.Name = "BtnLSec7";
             this.BtnLSec7.Size = new System.Drawing.Size(62, 22);
             this.BtnLSec7.TabIndex = 48;
@@ -464,7 +465,7 @@ namespace _7_Segment_Format_Clock
             // BtnLSec5
             // 
             this.BtnLSec5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnLSec5.Location = new System.Drawing.Point(637, 161);
+            this.BtnLSec5.Location = new System.Drawing.Point(608, 161);
             this.BtnLSec5.Name = "BtnLSec5";
             this.BtnLSec5.Size = new System.Drawing.Size(22, 62);
             this.BtnLSec5.TabIndex = 47;
@@ -474,7 +475,7 @@ namespace _7_Segment_Format_Clock
             // BtnLSec6
             // 
             this.BtnLSec6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnLSec6.Location = new System.Drawing.Point(723, 162);
+            this.BtnLSec6.Location = new System.Drawing.Point(694, 162);
             this.BtnLSec6.Name = "BtnLSec6";
             this.BtnLSec6.Size = new System.Drawing.Size(22, 62);
             this.BtnLSec6.TabIndex = 46;
@@ -485,7 +486,7 @@ namespace _7_Segment_Format_Clock
             // 
             this.BtnLSec4.FlatAppearance.BorderColor = System.Drawing.Color.YellowGreen;
             this.BtnLSec4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.BtnLSec4.Location = new System.Drawing.Point(660, 139);
+            this.BtnLSec4.Location = new System.Drawing.Point(631, 139);
             this.BtnLSec4.Name = "BtnLSec4";
             this.BtnLSec4.Size = new System.Drawing.Size(62, 22);
             this.BtnLSec4.TabIndex = 45;
@@ -495,7 +496,7 @@ namespace _7_Segment_Format_Clock
             // BtnLSec3
             // 
             this.BtnLSec3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnLSec3.Location = new System.Drawing.Point(723, 77);
+            this.BtnLSec3.Location = new System.Drawing.Point(694, 77);
             this.BtnLSec3.Name = "BtnLSec3";
             this.BtnLSec3.Size = new System.Drawing.Size(22, 62);
             this.BtnLSec3.TabIndex = 44;
@@ -506,7 +507,7 @@ namespace _7_Segment_Format_Clock
             // 
             this.BtnLSec2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.BtnLSec2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnLSec2.Location = new System.Drawing.Point(637, 77);
+            this.BtnLSec2.Location = new System.Drawing.Point(608, 77);
             this.BtnLSec2.Name = "BtnLSec2";
             this.BtnLSec2.Size = new System.Drawing.Size(22, 62);
             this.BtnLSec2.TabIndex = 43;
@@ -517,7 +518,7 @@ namespace _7_Segment_Format_Clock
             // 
             this.BtnLSec1.FlatAppearance.BorderColor = System.Drawing.Color.YellowGreen;
             this.BtnLSec1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.BtnLSec1.Location = new System.Drawing.Point(660, 55);
+            this.BtnLSec1.Location = new System.Drawing.Point(631, 55);
             this.BtnLSec1.Name = "BtnLSec1";
             this.BtnLSec1.Size = new System.Drawing.Size(62, 22);
             this.BtnLSec1.TabIndex = 42;
@@ -542,7 +543,7 @@ namespace _7_Segment_Format_Clock
             // 
             this.button1.BackColor = System.Drawing.Color.Black;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(307, 99);
+            this.button1.Location = new System.Drawing.Point(278, 99);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(23, 22);
             this.button1.TabIndex = 57;
@@ -552,7 +553,7 @@ namespace _7_Segment_Format_Clock
             // 
             this.button2.BackColor = System.Drawing.Color.Black;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(307, 181);
+            this.button2.Location = new System.Drawing.Point(278, 181);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(23, 22);
             this.button2.TabIndex = 58;
@@ -562,7 +563,7 @@ namespace _7_Segment_Format_Clock
             // 
             this.button3.BackColor = System.Drawing.Color.Black;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(596, 99);
+            this.button3.Location = new System.Drawing.Point(567, 99);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(23, 22);
             this.button3.TabIndex = 59;
@@ -572,11 +573,22 @@ namespace _7_Segment_Format_Clock
             // 
             this.button4.BackColor = System.Drawing.Color.Black;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(596, 182);
+            this.button4.Location = new System.Drawing.Point(567, 182);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(23, 22);
             this.button4.TabIndex = 60;
             this.button4.UseVisualStyleBackColor = false;
+            // 
+            // lblAMPM
+            // 
+            this.lblAMPM.AutoSize = true;
+            this.lblAMPM.Font = new System.Drawing.Font("DS-Digital", 45F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAMPM.Location = new System.Drawing.Point(844, 118);
+            this.lblAMPM.Name = "lblAMPM";
+            this.lblAMPM.Size = new System.Drawing.Size(83, 70);
+            this.lblAMPM.TabIndex = 61;
+            this.lblAMPM.Text = "AM";
+            this.lblAMPM.UseCompatibleTextRendering = true;
             // 
             // ClckSgmnt
             // 
@@ -584,6 +596,7 @@ namespace _7_Segment_Format_Clock
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.YellowGreen;
             this.ClientSize = new System.Drawing.Size(950, 375);
+            this.Controls.Add(this.lblAMPM);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -689,6 +702,7 @@ namespace _7_Segment_Format_Clock
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label lblAMPM;
     }
 }
 
